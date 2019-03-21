@@ -1,0 +1,85 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #7581a1;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.nav {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6e7ea9;
+    text-transform: uppercase;
+}
+
+.btn-free {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #1085e4;
+}
+
+.grid h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #192b59;
+}
+
+.grid h2 span {
+    color: #1085e4;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: block;
+}
+
+.grid-item h3 {
+    color: #192b59;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.grid-item a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+}
+
+.page-subscribe h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.page-subscribe h2 span {
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #00bffe;
+    display: block;
+}
+
+.page-subscribe p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* пока не понял как стилизовать текст внутри формы */
+.page-subscribe .input-field {
+    color: #fff;
+}
