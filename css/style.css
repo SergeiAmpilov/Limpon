@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Open Sans', sans-serif;
     color: #7581a1;
@@ -80,6 +79,26 @@ h1 {
 }
 
 /* пока не понял как стилизовать текст внутри формы */
-.page-subscribe .input-field {
-    color: #fff;
+.input-field::placeholder {
+    color:blue;
+    color:#fff;
 }
+
+.input-button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background-color: #1085e4;
+}
+
+.page-software h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.page-software dt {
+    font-weight: 700;
+}
+
