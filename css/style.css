@@ -14,17 +14,79 @@ h1 {
     font-size: 80px;
     font-weight: 600;
     color: #192b59;
+    max-width:540px;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    margin-bottom: 65px;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .nav {
     font-size: 12px;
-    font-weight: 700;
-    color: #6e7ea9;
-    text-transform: uppercase;
-    
+    font-weight: 700;    
+    text-transform: uppercase;    
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+}
+
+.nav>li {
+    padding: 0 15px;
+}
+
+.nav .nav-item {
+    color: #6e7ea9;
+}
+
+.title-h2 {
+    color: #192b59;
+    font-size: 50px;
+    font-weight: 600;    
+    letter-spacing: -1.5px;
+    line-height: 1.2;
+}
+
+.title-h2 span {
+    display: block;
+    color: #1085e4;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3.0px;
+    margin-bottom: 13px;
+}
+
+.page-stat .title-h2, .page-screen .title-h2 {
+    text-align: center;    
+    margin: 0 auto;
+}
+
+.page-stat .title-h2 {
+    max-width: 500px;
+}
+
+.title-40 {
+    color: #192b59;
+    font-size: 40px;
+    font-weight: 600;    
+    letter-spacing: -1.1px;
+    line-height: 1.2;
+}
+
+.title-40 span {
+    display: block;
+    color: #1085e4;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    margin-bottom: 20px;   
 }
 
 .btn-primary {
@@ -132,12 +194,6 @@ h1 {
     line-height: 28px;
 }
 
-/* пока не понял как стилизовать текст внутри формы */
-.input-field::placeholder {
-    color:blue;
-    color:#fff;
-}
-
 .input-button {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -156,3 +212,119 @@ h1 {
     font-weight: 700;
 }
 
+.list-stat {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 76px;
+}
+
+.list-stat>li {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1085e4;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.list-stat>li>span {
+    font-size: 60px;
+    font-weight: 700;
+    color: #bacbdc;
+    display: block;
+    text-align: center;
+    margin-bottom: 23px;
+    letter-spacing: 0;
+    
+}
+
+.screen {
+    margin-top: 37px;
+    margin-bottom: -7px;
+}
+
+.box-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-price-item {
+    background-color: #f5faff;
+    padding: 30px 74px;
+}
+
+.box-price-item.active {
+    background-color: #192b59;
+    color: #fff;
+}
+
+.box-price-item ul {
+    list-style-type: none;
+    margin: 0 0 60px 0;
+    padding: 0;
+}
+
+.box-price-item li {
+    font-size: 14px;
+    color: #8085b1;
+    margin-bottom: 14px;
+}
+
+.box-price-item.active li {
+    color: #fff;
+}
+
+
+.title-70 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #000958;
+    letter-spacing: -1.1px;
+    line-height: 0;
+    margin-bottom: 50px;
+}
+
+.active .title-70 {
+    color: #fff;
+}
+
+.title-month, .title-dollar {
+    font-size: 20px;
+}
+
+.title-month {
+    color: #7b8ab2;
+}
+
+.starter {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: #0084ff;
+    margin-bottom: 35px;
+}
+
+.active .starter {
+    color: #fff;
+}
+
+
+
+/* PAGE */
+
+.page-stat, .page-screen {
+    background: #edf6ff;
+}
+
+.page-stat {
+    padding: 116px 0 96px 0;
+}
+
+.page-screen, .page-plan {    
+    text-align: center;
+}
+
+.page-screen {    
+    padding: 116px 0 0 0;
+}
