@@ -224,11 +224,89 @@ h1 {
 
 .subscribe-header {
     padding-bottom: 80px;
+    flex-basis: 49%;
 }
 
 .subscribe-header p {
     max-width: 430px;
     margin-bottom: 45px;
+}
+
+.box-subscribe-user {
+    position: relative;
+}
+
+.box-subscribe-user .btn-primary {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    padding: 18px 45px;
+    letter-spacing: 4px;
+}
+
+.box-subscribe-user input {
+    border: 2px solid #3d55ac;
+    border-radius: 46px;
+    background-color: transparent;
+    padding: 23px 220px 23px 36px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #fff;
+}
+
+.box-subscribe-user input:focus, .btn-primary {
+    outline: none;
+}
+
+.box-subscribe-user input::-webkit-input-placeholder {color:#b1c3ee;}
+.box-subscribe-user input::-moz-placeholder          {color:#b1c3ee;}/* Firefox 19+ */
+.box-subscribe-user input:-moz-placeholder           {color:#b1c3ee;}/* Firefox 18- */
+.box-subscribe-user input:-ms-input-placeholder      {color:#b1c3ee;}
+
+.grid {
+    display: grid;
+    grid-template-areas: 'a b c'
+                         'd b c'
+                         'd f g'
+                         'e f g'
+                         'e h h';
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.grid-title {
+    grid-area: a;
+}
+
+.grid-item-1 {
+    grid-area: b;
+}
+
+.grid-item-2 {
+    grid-area: c;
+}
+
+.grid-item-3 {
+    grid-area: d;
+}
+
+.grid-item-4 {
+    grid-area: e;
+}
+
+.grid-item-5 {
+    grid-area: f;
+}
+
+.grid-item-6 {
+    grid-area: g;
+}
+
+.grid-text {
+    grid-area: h;
+    padding: 0 20px;
 }
 
 .grid h2 {
@@ -243,18 +321,83 @@ h1 {
     font-weight: 800;
     text-transform: uppercase;
     display: block;
+    letter-spacing: 3px;
+}
+
+.grid-item {
+    text-align: center;
+    box-shadow: 0 0 5px #f8f8f8;
+    padding: 48px 24px 60px;
+    margin: 10px 10px;
 }
 
 .grid-item h3 {
     color: #192b59;
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 18px;
+    letter-spacing: -0.5px;
+}
 }
 
 .grid-item a {
     font-size: 14px;
     font-weight: 600;
     color: #1085e4;
+}
+
+.grid-icon {
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto 27px;
+}
+
+.grid-icon-1 {
+    background-image: url(../img/3-icon1.png);
+    width: 73px;
+    height: 79px;
+}
+
+.grid-icon-2 {
+    background-image: url(../img/3-icon2.png);
+    width: 89px;
+    height: 85px;
+}
+
+.grid-icon-3 {
+    background-image: url(../img/3-icon5.png);
+    width: 79px;
+    height: 82px;
+}
+
+.grid-icon-4 {
+    background-image: url(../img/3-icon3.png);
+    width: 85px;
+    height: 90px;
+}
+
+.grid-icon-5 {
+    background-image: url(../img/3-icon4.png);
+    width: 100px;
+    height: 87px;
+}
+
+.grid-icon-6 {
+    background-image: url(../img/3-icon6.png);
+    width: 103px;
+    height: 92px;
+}
+
+.grid-text p + p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1085e4;
+}
+
+.grid-text p + p span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #192b59;
 }
 
 .page-subscribe h2 {
@@ -447,4 +590,9 @@ h1 {
 .page-subscribe {
     padding-top: 50px;
     padding-bottom: 53px;
+}
+
+.page-grid {
+    padding-top: 90px;
+    padding-bottom: 137px;
 }
